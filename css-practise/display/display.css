@@ -1,0 +1,274 @@
+/* 
+    display: none;
+    display: block;
+            : inline
+            : flex;
+            : grid;
+
+*/
+
+
+/* units */
+
+/* 1px  */
+/* 1rem - 14px - it checks for root tags font size ie html, body*/
+/* 1em - 14px - it checks for parent tags font size*/
+/* 1% */
+/* 1vw */
+/* 1vh */
+
+.container {
+    border: 3px solid;
+    width: 300px;
+
+    /* flex is used to flex the items to columns and rows */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 0px;
+    column-gap: 2px;
+    background-image: url(https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQgByBT5IiAT_a2x9pUVb4VMoOrlzHH7Jrzj-HB5jzHlR4lNLMS);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+.container2 {
+    border: 2px dotted;
+    width: 300px;
+    grid-template-columns: auto auto auto;
+    row-gap: 0%;
+    column-gap: 5px;
+    background-image: url(https://img.bestrecipes.com.au/GmWTemLJ/w643-h428-cfill-q90/br/2019/02/1980-crunchy-chicken-twisties-drumsticks-951509-1.jpg);
+    background-size: contain;
+
+
+
+}
+
+.item1 {
+    border: 1px solid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: inline-block;
+}
+
+.item2 {
+    border: 2px solid;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: inline-block;
+
+}
+
+.item3 {
+    border: 3px solid;
+    grid-column-start: 1;
+    grid-column-end: 6;
+
+}
+
+.item4 {
+    border: 4px solid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+.item5 {
+    border: 5px solid;
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+}
+
+.item6 {
+    border: 5px solid;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.item7 {
+    border: 4px solid;
+    grid-column-start: 3;
+    grid-column-end: 7;
+}
+
+.item8 {
+    border: 2px solid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.item9 {
+    border: 6px solid;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.item10 {
+    border: 2px solid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-color: aquamarine;
+}
+
+.item11 {
+    border: 2px solid;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.dotted {
+    border-style: dotted;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: inline-block;
+    border: 2px dotted;
+    border-color: blue;
+}
+
+.dashed {
+    border-style: dashed;
+    display: inline-block;
+    border: 4px dashed;
+}
+
+.solid {
+    border-style: solid;
+    display: inline-block;
+    border: 3px solid;
+}
+
+.double {
+    border-style: double;
+    display: inline-block;
+    border: 4px double;
+}
+
+.groove {
+    border-style: groove;
+    display: inline-block;
+    border: 5px groove;
+    box-shadow: 5px 5px 5px;
+}
+
+.ridge {
+    border-style: ridge;
+    display: inline-block;
+    border: 6px ridge;
+}
+
+.inset {
+    border-style: inset;
+    display: inline-block;
+    border: 7px inset;
+    border-color: aqua;
+}
+
+.outset {
+    border-style: outset;
+    display: inline-block;
+    border: 7px outset;
+    border-color: chartreuse;
+}
+
+.none {
+    border-style: none;
+    display: inline-block;
+}
+
+.hidden {
+    border-style: hidden;
+    display: inline-block;
+}
+
+.mix {
+    border-style: dotted dashed solid double;
+    display: inline-block;
+    border: 8px mix;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.mix:hover {
+    font-size: 10px;
+    border-color: brown;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aqua;
+    box-shadow: 4px 4px 4px 2px;
+    border-radius: 50px;
+    margin: 2%;
+    margin-right: 5%;
+    
+
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: aquamarine;
+    box-shadow: 4px 4px 4px 2px;
+    border-radius: 50px;
+    margin: 2%;
+    
+
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: blanchedalmond;
+    box-shadow: 4px 4px 4px 2px;
+    border-radius: 50px;
+    margin: 2%;
+    margin-right: 5%;
+
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: blueviolet;
+    box-shadow: 4px 4px 4px 2px;
+    border-radius: 50px;
+    margin: 2%;
+    margin-right: 5%;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: pink;
+    box-shadow: 4px 4px 4px 2px;
+    border-radius: 50px;
+    margin: 2%;
+    margin-right: 5%;
+}
+
+#boxes {
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction:row-reverse;
+    border: 2px solid black;
+    position: sticky;
+    bottom: 0%;
+}
+.edit-border{
+    position: sticky;
+    top: 0%;
+}

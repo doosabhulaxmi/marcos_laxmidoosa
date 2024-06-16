@@ -1,0 +1,31 @@
+.position-static {
+    height: 40vh;
+    border: 1px solid red;
+}
+
+.static {
+    position: static;
+}
+
+
+.containerRelative {
+    position: relative;
+    border: 1px solid red;
+    height: 100px;
+    margin-top: 40px;
+
+}
+
+.position-relative{
+    border: 1px solid;
+    position: absolute;
+    left: 20px;
+}
+
+
+.greenCard:hover {
+    left: 90px;
+    /* top: 40px; */
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+}

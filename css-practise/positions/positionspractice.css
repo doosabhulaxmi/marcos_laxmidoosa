@@ -1,0 +1,42 @@
+.chocolatepositions {
+    height: 30vh;
+    border: 2px dotted;
+    border-color: cadetblue;
+}
+.chocolate2{
+    height: 40vh;
+    border: 5px double;
+    position: absolute;
+    height: 100px;
+    margin-top: 40px;
+    left: 40px;
+}
+
+.fixed{
+    position: fixed;
+    right:0%;
+}
+
+.yellowcard:hover{
+    left: 100px;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+    border-radius: 50%;
+
+}
+.blucard:hover{
+    left: 80px;
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out;
+    border-radius: 40%;
+}
+.static{
+border: 4px solid;
+right: 0%;
+}
+
+.fixed-text{
+    position:relative;
+    top: 0%;
+    position: fixed;
+}

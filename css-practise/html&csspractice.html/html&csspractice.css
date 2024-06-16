@@ -1,0 +1,263 @@
+.hover:hover {
+    color: brown;
+    background-color: yellow;
+    text-decoration: solid;
+    font-size: 20px;
+
+}
+
+.listitemedit {
+    font-size: large;
+    font-family: arial;
+    color: brown;
+    border: 2px solid;
+    background-color: blanchedalmond;
+    padding: 30px;
+    margin: 0px;
+}
+
+.linkcolors:link {
+    color: chartreuse;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.linkcolors:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.linkcolors:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.linkcolors:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.anotherlink:link,
+.anotherlink:visited {
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration: underline;
+
+}
+
+.anotherlink:hover,
+.anotherlink:active {
+    background-color: aqua;
+}
+
+body {
+    background-image: url(./Images/abstract-soft-colorful-watercolor-texture-background-design_1055-13589\ \(1\).avif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-size: 100% 100%;
+
+}
+
+.tables,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.tables,
+tr {
+    background-color: lightgrey;
+}
+
+.tables,
+td {
+    background-color: olive;
+}
+
+.colorscontainer {
+    padding: 2px;
+    width: 40%;
+    float: left;
+    display: flex;
+
+}
+
+#header {
+    background-color: cadetblue;
+}
+
+.paraedit1 {
+    color: brown;
+    text-align: left;
+}
+
+#paraedit2 {
+    color: rgb(19, 142, 101);
+    text-align: right;
+}
+
+.same {
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    opacity: 0.4;
+}
+
+/* *{text-align: end;}*/
+
+.allinone {
+    text-align: right;
+}
+
+.opacity1 {
+    opacity: 0.4;
+}
+
+.opacity2 {
+    opacity: 0.7;
+}
+
+.opacity3 {
+    opacity: 0.9;
+}
+
+.padding {
+    border: 4px solid black;
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 40px;
+}
+
+.sticky {
+    position: sticky;
+    top: 0%;
+    border: 2px solid cornflowerblue;
+    background-color: chartreuse;
+
+}
+
+.positions {
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: right;
+    text-align: center;
+    padding: 2px;
+    background-color: aquamarine;
+
+}
+
+.positions:hover {
+    font-weight: 100;
+    background-color: aqua;
+    transform: scale(1.1);
+    transition: all 0.4s ease-in-out;
+
+}
+
+.Z-index {
+    height: 200px;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.zoom:hover {
+    padding: 6px;
+    height: 1oopx;
+    width: 100px;
+    background-color: transparent;
+    font-size: 60px;
+
+}
+
+.subscribe {
+    background-color: brown;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    transition: 0.15s;
+    margin-right: 20px;
+    margin-left: 20px;
+vertical-align: top;
+
+}
+
+.subscribe:hover {
+    background-color: green;
+    transform: scale(1.1);
+    transition: all 0.4 ease-in-out;
+}
+
+.subscribe:active {
+    background-color: blue;
+}
+
+.join {
+    border-color: blue;
+    color: blue;
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+.join:hover {
+    background-color: blue;
+    color: azure;
+    transition: background-color 1s;
+    transform: scale(1.1);
+    transition: all 0.4 ease-in-out;
+}
+
+.join:active {
+    opacity: 0.7;
+}
+
+.tweet {
+    background-color: red 0.15s;
+    height: 36px;
+    width: 100px;
+    background-color: rgb(21, 21, 245);
+    color: white;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 3px 3px 0 black;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.tweet:hover {
+    box-shadow: 5px 5px 10px rgb(37, 182, 170);
+    transition: 0.15s;
+    transform: scale(1.1);
+    transition: all 0.4 ease-in-out;
+}
+.div p{
+        background-color: gray;
+}

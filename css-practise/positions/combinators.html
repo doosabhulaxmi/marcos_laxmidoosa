@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--(div > p) hightlighted only div part p not other tags like section -->
+<!--(div p) hightlights only div part p -->
+<!--(div + p) highlighted only p tag not in div p-->
+
+<style>
+    
+div + p {
+    background-color: yellow;
+}
+.video-tittle{
+    font-family: Arial;
+    font-weight: bold;
+    width: 280px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+}
+.video-states{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(83, 80, 80);
+    margin-top: 0%;
+}
+.video-author{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(83, 80, 80);
+    margin-top: 0%;
+}
+.video-description{
+    font-family: Arial;
+    font-size: 14px;
+    width: 280px;
+    color: rgb(83, 80, 80);
+    line-height: 20px;
+
+}
+
+</style>
+
+<body>
+    <div>
+        <h1>Combinators</h1>
+        <p>Paragraph 1 in the div</p>
+        <p>Paragraph 2 in the div</p>
+        <!--section tag not included-->
+        <section><p>Paragraph 7 in the div</p></section>
+        <p>Paragraph 3 in the div</p>
+    </div>
+    <p>Paragraph 4 in the div</p>
+    <p>Paragraph 5 in the div</p>
+
+    <p><b>iron</b> <i>man</i> is the <u>best avengers</u></p>
+    <p><big>hello</big><small> everyone</small></p>
+    H<sub>2</sub>O <br>
+    2<sup>4</sup>=16
+    </p> <span style="background-color: aquamarine;">Raunak ent</span></p>
+
+    <p class="video-tittle">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+
+    <p class="video-states">3.4M Views &#183; 6 months ago</p>
+
+    <p class="video-author">Marques Brownlee &#10003;</p>
+
+    <p class="video-description">Talking tech and AI on the heel of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!</p>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

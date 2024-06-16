@@ -1,0 +1,38 @@
+body{
+    
+}
+
+
+.myname{
+    text-align: center;
+    
+}
+.img{
+    width: 190px;
+    height: 240px;
+    background-color: aquamarine;
+}
+.details{
+    color: black;
+    text-align: justify;
+    text-align: center;
+}
+.listorder{
+    list-style-type: circle;
+
+}
+.heading{
+    color: blue;
+    font-family: 'fuggles',cursive;
+    font-size: 90px;
+    font-style: italic;
+    text-decoration:underline;
+    letter-spacing: 5px;
+    word-spacing: 30px;
+}
+.para{
+    color: crimson !important;
+    font-size: 85px;
+    font-style: italic;
+    letter-spacing: 6px;
+}

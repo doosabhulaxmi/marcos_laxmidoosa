@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0%;
+}
+
+.Container {
+    background-color: blue;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 10px;
+    border-radius:30%;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+.Container {
+    text-transform: lowercase;
+    text-decoration-color: brown;
+}
+.Container:hover{
+    font-weight: 30px;
+    padding: 30px;
+    font-size: 30px;
+}
+.text {
+    text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: blueviolet;
+
+}
+
+.hover_inner:hover{
+    font-size: 20px;
+    color: brown;
+    background-color: yellow;
+}
+
+
+.curvecursor:auto {
+    text-align: left;
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-decoration-color: deeppink;
+}
